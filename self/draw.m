@@ -1,4 +1,4 @@
-z=peaks(30); 
+z=peaks(30);  %定义一个30*30的高斯分布矩阵
 surfl(z);
 shading interp;
 figure(1)
